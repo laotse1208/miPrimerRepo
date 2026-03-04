@@ -1,66 +1,39 @@
-name: 🐛 Bug Report
-description: Report an error to help improve the project
-title: "🐞 BUG: Short description of the issue"
-labels: [bug]
-assignees: [githubUsername]
+---
+name: "🐛 Bug Report"
+about: "Reportar un error para ayudarnos a mejorar el proyecto."
+title: "[BUG] - Descripción corta del error"
+labels:
+  - bug
+assignees: []
+---
 
-body:
-  - type: markdown
-    attributes:
-      value: |
-        ## 🐛 Found a bug?
-        No worries — thanks for taking the time to report it! Please fill out the info below so I can understand and fix it faster.
+## 🐛 Bug Report
 
-  - type: textarea
-    id: bug-description
-    attributes:
-      label: 🐞 What's going wrong?
-      description: Tell me what’s happening. Be as clear as you can.
-      placeholder: Describe the issue you're seeing.
-    validations:
-      required: true
+### Descripción
 
-  - type: textarea
-    id: steps-to-reproduce
-    attributes:
-      label: 🔁 How can we see it too?
-      description: Walk me through the steps so I can try to reproduce the issue.
-      placeholder: |
-        1. Go to '...'
-        2. Click on '...'
-        3. ...
-    validations:
-      required: true
+Describe claramente el error que has encontrado. Incluye detalles sobre cómo se presenta el problema.
 
-  - type: textarea
-    id: expected-behavior
-    attributes:
-      label: ✅ What did you expect to happen?
-      description: Let me know what you thought would happen instead.
-      placeholder: I expected it to...
-    validations:
-      required: true
+### Pasos para reproducir
 
-  - type: textarea
-    id: environment
-    attributes:
-      label: 🖥️ Where did this happen? (optional)
-      description: Tell me about your system or setup, if it might help.
-      placeholder: |
-        - OS: Windows 10
-        - Browser: Chrome 125
-        - Project version: 1.0.0
+1. Ir a '...'
+2. Hacer clic en '...'
+3. Describir cualquier otra acción hasta que ocurra el problema.
+4. Error que aparece: '...'
 
-  - type: textarea
-    id: screenshots
-    attributes:
-      label: 📷 Screenshots or Logs (optional)
-      description: Got an error message, console output, or a screenshot? Drop it here.
-      placeholder: You can paste images or code logs here.
+### Comportamiento esperado
 
-  - type: textarea
-    id: additional-info
-    attributes:
-      label: 📌 Anything else?
-      description: If there's more context, links, or related issues, include them here.
-      placeholder: Context, related tickets, guesses about the cause, etc.
+Describe lo que esperabas que ocurriera al realizar los pasos anteriores.
+
+### Capturas de pantalla o registros
+
+Si es posible, añade capturas de pantalla o registros de errores.
+
+### Entorno
+
+- Sistema operativo: [p. ej., Windows 10, macOS Catalina]
+- Navegador y versión: [p. ej., Chrome 87, Safari 14]
+- Versión del proyecto: [p. ej., 1.0.0]
+
+### Información adicional
+
+Cualquier otra información relevante.
